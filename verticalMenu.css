@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+nav{
+    background-color: rgb(91, 118, 11);
+    width: 30%;
+    height: 100vh;
+}
+#cont{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: pink;
+    color: black;
+}
+/* ------ below li drop down ------
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: olive;
+    position: relative;
+    display: none;
+} */
+/* ------ right side drop down ------ */
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: olive;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu{
+    display: block;
+}
+#iphone-menu{
+    background-color: rgb(19, 16, 221);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#iphone-drop:hover #iphone-menu{
+    display: block;
+    background-color: chocolate;
+}
+#menu1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: olive;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop1{
+    position: relative;
+}
+#drop1:hover #menu1{
+    display: block;
+}
